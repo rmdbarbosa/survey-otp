@@ -7,5 +7,78 @@
     <script src=".//script.js" defer></script>
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <div id="main-div">
+      <div id="left-div">
+        <div id="transparent-div">
+          <img
+            id="odin-logo"
+            src=".//odin-lined.png"
+            alt="odin-logo"
+            height="100vh"
+          />
+          <h1>ODIN</h1>
+        </div>
+        <footer>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/pt-br/fotografias/25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </footer>
+      </div>
+      <div id="right-div">
+        <p id="hero-text">
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br>Sign up now
+          to get started. <p id="hero-bottom">You know you want to.</p>
+        </p>
+        <div id="form-container">
+          <p id="form-text">Let's do this!</p>
+          <form action="" method="get" class="form-main-div">
+            <div class="form-divs">
+              <div class="form-div">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" name="firstName" id="firstName">
+              </div>
+              <div class="form-div">
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email">
+              </div>
+              <div class="form-div">
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" required>
+              </div>
+            </div>
+            <div class="form-divs">
+              <div class="form-div">
+              <label for="lastName">LAST NAME</label>
+              <input type="text" name="lastName" id="">
+              </div>
+              <div class="form-div">
+              <label for="phoneNumber">PHONE NUMBER</label>
+              <input type="tel" name="phoneNumber" id="phoneNumber">
+              </div>
+              <div class="form-div">
+              <label for="confirmPassword">CONFIRM PASSWORD</label>
+              <input type="password" name="confirmPassword" id="confirmPassword" required>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div id="bottom-right">
+          <button id="createBtn">Create Account</button>
+          
+          <div>
+            <p style="font-weight: bold;">Already have an account? <a href="#" style="color: #819074; font-weight: bold; text-decoration: none;">Log in</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
